@@ -1,0 +1,4 @@
+def addisjon(tall1, tall2)
+    sum_add = tall1 + tall2
+    return sum_add
+print(addisjon(4, 7))
