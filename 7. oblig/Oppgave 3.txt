@@ -1,0 +1,10 @@
+b)
+I dette tilfellet ville man potensielt fått flere like nøkkelverdier (flere artister som heter det samme),
+eller flere like mappeverdier. Videre er ikke nøklene i en ordbok nummererte. Dette
+gjør at lister er bedre egnet for å holde orden på flere verdier og er lettere å navigere/manipulere.
+
+c)
+Det er ryddigere kode å gjøre det utenfor konstruktøren, i en egen metode.
+Formålet til konstruktøren er i hovedsak å gi instansvariablene verdi.
+Videre vil det også bli problematisk å opprette spillelister uten å ha et
+spesifikt filnavn.
